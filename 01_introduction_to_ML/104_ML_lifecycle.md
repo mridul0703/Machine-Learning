@@ -2,6 +2,8 @@
 
 ## 🧩 Overview
 
+# 
+
 The **Machine Learning (ML) Lifecycle** describes the **end-to-end process** of developing and deploying ML models.  
 It starts with **data collection** and ends with **deploying and monitoring** models in real-world applications.
 
@@ -12,6 +14,8 @@ The lifecycle ensures that ML solutions are **systematic, reliable, and scalable
 ## ⚙️ Key Stages in the ML Lifecycle
 
 ### 1️⃣ Data Collection & Preparation
+
+# 
 
 *   **Gather raw data** → sensors, logs, databases, APIs.
     
@@ -32,6 +36,8 @@ The lifecycle ensures that ML solutions are **systematic, reliable, and scalable
 
 ### 2️⃣ Model Building
 
+# 
+
 *   **Choose an algorithm** (e.g., regression, decision trees, neural networks).
     
 *   **Split data** into:
@@ -48,6 +54,8 @@ The lifecycle ensures that ML solutions are **systematic, reliable, and scalable
 * * *
 
 ### 3️⃣ Model Evaluation
+
+# 
 
 *   Test the model using **evaluation metrics**:
     
@@ -70,6 +78,8 @@ The lifecycle ensures that ML solutions are **systematic, reliable, and scalable
 
 ### 4️⃣ Deployment
 
+# 
+
 *   Integrate the trained model into applications:
     
     *   Web apps (Flask, FastAPI).
@@ -89,6 +99,8 @@ The lifecycle ensures that ML solutions are **systematic, reliable, and scalable
 
 ## 🚀 ML Lifecycle Workflow
 
+# 
+
 1.  **Data Collection & Cleaning** 🗂️
     
 2.  **Model Training** 🧠
@@ -104,11 +116,17 @@ The lifecycle ensures that ML solutions are **systematic, reliable, and scalable
 
 ## 📊 Lifecycle Diagram
 
+# 
+
  `Data → Preprocessing → Model Training → Evaluation → Deployment → Monitoring`
+
+_(In your GitHub repo, this can be represented with a diagram/flowchart for visual clarity.)_
 
 * * *
 
 ## 📘 Key Takeaways
+
+# 
 
 *   The ML Lifecycle has **four major stages**: Data → Model → Evaluation → Deployment.
     
