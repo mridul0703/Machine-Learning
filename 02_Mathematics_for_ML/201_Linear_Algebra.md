@@ -1,4 +1,4 @@
-# 105. Linear Algebra for Machine Learning
+# 201. Linear Algebra for Machine Learning
 
 ## 🔢 Why Linear Algebra for ML?
 
