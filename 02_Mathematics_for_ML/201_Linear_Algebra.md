@@ -29,9 +29,6 @@ Without Linear Algebra, ML models cannot exist.
 
 **Example:**  
 x = [2, 5, 7]
-
-markdown
-Copy code
 Here, `x` is a 3-dimensional vector.  
 
 ### Vector Operations
