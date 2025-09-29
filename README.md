@@ -160,5 +160,44 @@ It covers everything from fundamentals (math, statistics, algorithms) to deep le
   - Designing a Recommendation System
   - Designing a Large-Scale ML Pipeline
   - Trade-offs in Model Complexity vs. Scalability
- 
+
 ---
+
+### 🌟 Module 11: Responsible AI & Explainability
+- Model Interpretability (SHAP, LIME, Counterfactuals)
+- Fairness, Bias, and Ethics in AI
+- Adversarial Attacks & Robustness
+
+---
+
+### 💡 Module 12: Next-Gen Architectures
+- Diffusion Models (Stable Diffusion, DALL·E)
+- Multimodal Learning (CLIP, BLIP)
+- Meta-Learning (Few-Shot, Zero-Shot)
+- Neural ODEs & Physics-Informed Neural Networks
+
+---
+
+### 📡 Module 13: Real-Time & Edge ML
+- Online & Incremental Learning
+- ML on Edge Devices (TensorFlow Lite, CoreML, ONNX)
+- Streaming ML (Kafka, River)
+
+---
+
+### 🔒 Module 14: Privacy-Preserving ML
+- Differential Privacy
+- Homomorphic Encryption
+- Federated Learning at Scale
+
+---
+
+### 🎯 Module 15: Recommendation Systems & Graph ML (Advanced)
+- Collaborative Filtering, Matrix Factorization
+- Deep Learning-based Recommenders (Wide & Deep, Two-Tower Models)
+- Graph Attention Networks (GAT), Graph Embeddings
+
+---
+
+Happy Learning! 🚀
+
