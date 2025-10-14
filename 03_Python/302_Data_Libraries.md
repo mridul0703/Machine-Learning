@@ -34,6 +34,9 @@ arr1 = np.array([1, 2, 3, 4])
 arr2 = np.array([[1, 2], [3, 4]])
 
 # Array of zeros, ones, or random numbers
+zeros = np.zeros((2,3))
+ones = np.ones((3,2))
+rand = np.random.rand(2,2)
 ```
 
 ### 2.2 Array Properties
