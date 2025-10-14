@@ -235,10 +235,5 @@ pd.merge(df1, df2, on='ID')
 
 - NumPy: Efficient numerical computation, arrays, broadcasting, linear algebra.
 - Pandas: Tabular data handling, preprocessing, filtering, aggregation.
-
-Both libraries are fundamental for machine learning workflows.
-
-Mastery of NumPy & Pandas is essential for feature engineering and preprocessing.
-zeros = np.zeros((2,3))
-ones = np.ones((3,2))
-rand = np.random.rand(2,2)
+- Both libraries are fundamental for machine learning workflows.
+- Mastery of NumPy & Pandas is essential for feature engineering and preprocessing.
