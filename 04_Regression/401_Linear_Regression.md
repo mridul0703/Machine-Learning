@@ -13,6 +13,13 @@ Linear Regression assumes a **linear relationship** between input features `X` a
 
 $$ y = \beta_0 + \beta_1 x + \varepsilon $$
 
+- Slope (m):
+  
+$$ \beta_1 \ = \frac{n(\sum xy) - (\sum x)(\sum y)}{n(\sum x^2) - (\sum x)^2} $$
+
+- Intercept (c):
+
+$$ \beta_0 \ = \frac{\sum y - m(\sum x)}{n} $$
 
 Where:
 - $( y \)$: Dependent variable (output)
