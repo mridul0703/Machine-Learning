@@ -187,4 +187,4 @@ If $( \beta_1 = 0.7 \)$, then $( e^{0.7} \approx 2.01 \)$.
 ---
 
 ✅ **Next Topic:**  
-📘 **502. Multiclass Classification — One-vs-Rest and Softmax Regression**
+📘 **502. k-Nearest Neighbors (k-NN)**
