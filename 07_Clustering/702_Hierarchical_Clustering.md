@@ -32,8 +32,8 @@ The distance between points (or clusters) can be calculated using various metric
 | Metric | Formula | Description |
 |---------|----------|-------------|
 | **Euclidean** | √Σ(xᵢ - yᵢ)² | Straight-line distance |
-| **Manhattan** | Σ|xᵢ - yᵢ| | Absolute distance |
-| **Cosine** | 1 - (x·y / ||x|| ||y||) | Angle-based similarity |
+| **Manhattan** | Σ\|xᵢ - yᵢ\| | Absolute distance |
+| **Cosine** | 1 - (x·y / \|\|x\|\| \|\|y\|\|) | Angle-based similarity |
 | **Correlation** | 1 - corr(x, y) | Measures statistical relationship |
 
 ---
