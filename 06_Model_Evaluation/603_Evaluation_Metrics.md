@@ -23,9 +23,9 @@ Regression models predict **continuous** values (like house prices, temperature,
 
 ### 🔸 2.1 Mean Squared Error (MSE)
 
-\[
+```math
 MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-\]
+```
 
 - Measures average squared difference between actual and predicted values.  
 - Penalizes large errors heavily.
@@ -36,9 +36,9 @@ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 
 ### 🔸 2.2 Root Mean Squared Error (RMSE)
 
-\[
+```math
 RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-\]
+```
 
 - Square root of MSE — interpretable in same units as target variable.
 - Sensitive to outliers.
@@ -49,9 +49,9 @@ RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
 
 ### 🔸 2.3 Mean Absolute Error (MAE)
 
-\[
+```math
 MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-\]
+```
 
 - Average of absolute differences.
 - Robust against outliers.
@@ -62,9 +62,9 @@ MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
 
 ### 🔸 2.4 R² Score (Coefficient of Determination)
 
-\[
+```math
 R^2 = 1 - \frac{SS_{res}}{SS_{tot}} = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
-\]
+```
 
 - Measures how much variance in the target is explained by the model.
 - Range: 0 → 1 (sometimes negative if model performs poorly)
@@ -101,9 +101,9 @@ Helps visualize model performance across categories.
 
 ### 🔸 3.2 Accuracy
 
-\[
+```math
 Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
-\]
+```
 
 ✅ **Good when classes are balanced.**
 
@@ -113,9 +113,9 @@ Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
 
 ### 🔸 3.3 Precision
 
-\[
+```math
 Precision = \frac{TP}{TP + FP}
-\]
+```
 
 - Of all predicted positives, how many are actually positive?
 - **High Precision** → few false positives.
@@ -126,9 +126,9 @@ Precision = \frac{TP}{TP + FP}
 
 ### 🔸 3.4 Recall (Sensitivity)
 
-\[
+```math
 Recall = \frac{TP}{TP + FN}
-\]
+```
 
 - Of all actual positives, how many are correctly predicted?
 - **High Recall** → fewer false negatives.
@@ -139,9 +139,9 @@ Recall = \frac{TP}{TP + FN}
 
 ### 🔸 3.5 F1-Score
 
-\[
+```math
 F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}
-\]
+```
 
 - Harmonic mean of Precision and Recall.
 - Balances between false positives & false negatives.
@@ -167,10 +167,9 @@ F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}
 
 ### 🔸 3.7 Log Loss (Cross-Entropy)
 
-\[
+```math
 LogLoss = -\frac{1}{n} \sum [y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i)]
-\]
-
+```
 - Penalizes incorrect confident predictions more.
 - Used for probabilistic classifiers like Logistic Regression.
 
